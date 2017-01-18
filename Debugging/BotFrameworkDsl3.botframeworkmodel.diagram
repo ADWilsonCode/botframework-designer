@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<botFrameworkDslDiagram dslVersion="1.0.0.0" Id="80e2b56b-9e6a-4482-b8db-09b20bd052ee" absoluteBounds="0, 0, 11, 8.5" name="BotFrameworkDsl3">
+  <botFrameworkModelMoniker Id="7bf01a64-6367-4262-a182-fcb26fca58a2" />
+  <nestedChildShapes>
+    <startShape Id="ab659c40-9125-4d6c-91ae-5ac29bffd156" absoluteBounds="0.5, 0.875, 0.625, 0.625">
+      <startMoniker Id="c3fa39ec-a220-4034-a240-0e79507a0f51" />
+    </startShape>
+    <endShape Id="3dd7a973-a9b3-4a89-8fd5-7bb1a56503b6" absoluteBounds="0.5, 2.5, 0.625, 0.625">
+      <endMoniker name="/7bf01a64-6367-4262-a182-fcb26fca58a2/End" />
+    </endShape>
+    <speakShape Id="15d3b043-0893-4ad5-bbc6-86ac48d6093e" absoluteBounds="2.875, 0.875, 1.5, 0.625">
+      <speakMoniker Id="558db2f5-0e7a-443d-9c29-ad3c3529d0ad" />
+    </speakShape>
+    <listenShape Id="fca23b6a-f054-436c-b8cc-3c1556229f98" absoluteBounds="2.875, 2.5, 1.5, 0.625">
+      <listenMoniker name="/7bf01a64-6367-4262-a182-fcb26fca58a2/Listen for Response" />
+    </listenShape>
+    <conversationFlow Id="44c13809-5f6f-48e8-8101-824d53f57953" edgePoints="[(1.125 : 1.1875); (2.875 : 1.1875)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="9f4ec840-7741-417f-9352-4f4514347312">
+      <nodes>
+        <startShapeMoniker Id="ab659c40-9125-4d6c-91ae-5ac29bffd156" />
+        <speakShapeMoniker Id="15d3b043-0893-4ad5-bbc6-86ac48d6093e" />
+      </nodes>
+    </conversationFlow>
+    <conversationFlow Id="cce8601d-a547-45d0-8c25-2b03cd1ff5e6" edgePoints="[(3.625 : 1.5); (3.625 : 2.5)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="9f4ec840-7741-417f-9352-4f4514347312">
+      <nodes>
+        <speakShapeMoniker Id="15d3b043-0893-4ad5-bbc6-86ac48d6093e" />
+        <listenShapeMoniker Id="fca23b6a-f054-436c-b8cc-3c1556229f98" />
+      </nodes>
+    </conversationFlow>
+    <conversationFlow Id="c35090cf-a510-4024-8ecf-babaddf455c1" edgePoints="[(2.875 : 2.8125); (1.125 : 2.8125)]" fixedFrom="Algorithm" fixedTo="Algorithm" TargetRelationshipDomainClassId="9f4ec840-7741-417f-9352-4f4514347312">
+      <nodes>
+        <listenShapeMoniker Id="fca23b6a-f054-436c-b8cc-3c1556229f98" />
+        <endShapeMoniker Id="3dd7a973-a9b3-4a89-8fd5-7bb1a56503b6" />
+      </nodes>
+    </conversationFlow>
+  </nestedChildShapes>
+</botFrameworkDslDiagram>

@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<botFrameworkModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="a2991391-1dd3-42bd-839e-63b8ac86178e" xmlns="http://schemas.microsoft.com/dsltools/BotFrameworkDsl">
+  <elements>
+    <speak Id="19a52983-43c0-4dc3-a6fe-da9043da1348" />
+  </elements>
+</botFrameworkModel>

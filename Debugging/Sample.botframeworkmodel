@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<botFrameworkModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="48d87197-e0ab-463d-97eb-61a6d1e36dc7" xmlns="http://schemas.microsoft.com/dsltools/BotFrameworkDsl">
+  <elements>
+    <start Id="a5136bd3-682d-48df-9835-26950c53d124" name="Start1" />
+  </elements>
+</botFrameworkModel>

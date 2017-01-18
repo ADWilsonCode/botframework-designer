@@ -1,0 +1,16 @@
+﻿<#@ template inherits="Microsoft.VisualStudio.TextTemplating.VSHost.ModelingTextTransformation" #>
+<#@ output extension=".cs" #>
+<#@ BotFrameworkDsl processor="BotFrameworkDslDirectiveProcessor" requires="fileName='Sample.botframeworkmodel'" #>
+
+
+<#
+  foreach (Dialog element in this.BotFrameworkModel.Elements)
+  {
+#>
+public class <#= element.Name #> : Dialog<object>
+{
+}
+
+<#
+}
+#>

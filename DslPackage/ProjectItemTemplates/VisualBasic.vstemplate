@@ -1,0 +1,17 @@
+﻿<!--DSL Tools Language Template-->
+<VSTemplate Version="3.0.0" Type="Item" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<TemplateData>
+		<TemplateID>{8f111c45-6ee6-484a-9fb5-ba6481291f1d}</TemplateID>
+		<Name Package="{b11c2986-8b42-4fa1-8f44-3dd353bca3e0}" ID="103"/>
+		<Description Package="{b11c2986-8b42-4fa1-8f44-3dd353bca3e0}" ID="102"/>
+		<Icon Package="{b11c2986-8b42-4fa1-8f44-3dd353bca3e0}" ID="201" />
+		<ProjectType>VisualBasic</ProjectType>
+		<SortOrder>360</SortOrder>
+		<DefaultName>BotFrameworkDsl.botframeworkmodel</DefaultName>
+	</TemplateData>
+	<TemplateContent>
+		<ProjectItem TargetFileName="$fileinputname$.botframeworkmodel">botframeworkmodel.botframeworkmodel</ProjectItem>
+		<ProjectItem TargetFileName="$fileinputname$.botframeworkmodel.diagram">botframeworkmodel.diagram</ProjectItem>
+	</TemplateContent>
+</VSTemplate>
+

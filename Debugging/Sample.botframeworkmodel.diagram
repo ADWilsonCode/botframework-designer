@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<botFrameworkDslDiagram dslVersion="1.0.0.0" Id="cd90a9e9-b78b-471f-a3f5-b010426ca9e9" absoluteBounds="0, 0, 11, 8.5" name="Sample">
+  <botFrameworkModelMoniker Id="48d87197-e0ab-463d-97eb-61a6d1e36dc7" />
+  <nestedChildShapes>
+    <startShape Id="5f9ee4c6-301b-465e-bca2-c202be5cc7d4" absoluteBounds="1.375, 1.875, 1.5, 1.5">
+      <startMoniker name="/48d87197-e0ab-463d-97eb-61a6d1e36dc7/Start1" />
+    </startShape>
+  </nestedChildShapes>
+</botFrameworkDslDiagram>

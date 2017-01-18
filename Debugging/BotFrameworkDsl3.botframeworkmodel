@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<botFrameworkModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="7bf01a64-6367-4262-a182-fcb26fca58a2" xmlns="http://schemas.microsoft.com/dsltools/BotFrameworkDsl">
+  <elements>
+    <start Id="c3fa39ec-a220-4034-a240-0e79507a0f51" name="Start">
+      <targets>
+        <speakMoniker Id="558db2f5-0e7a-443d-9c29-ad3c3529d0ad" />
+      </targets>
+    </start>
+    <end Id="91668586-8783-47b9-ab46-4bb0c79d08bf" name="End" />
+    <speak Id="558db2f5-0e7a-443d-9c29-ad3c3529d0ad" name="Say &quot;Hello World&quot;">
+      <targets>
+        <listenMoniker name="/7bf01a64-6367-4262-a182-fcb26fca58a2/Listen for Response" />
+      </targets>
+    </speak>
+    <listen Id="478218c0-7392-4601-839e-4654bd632738" name="Listen for Response">
+      <targets>
+        <endMoniker name="/7bf01a64-6367-4262-a182-fcb26fca58a2/End" />
+      </targets>
+    </listen>
+  </elements>
+</botFrameworkModel>
